@@ -1,4 +1,4 @@
-# Comp426 Backend Server
+# Backend Server for Mousikal
 
 This template is a simple out of the box solution for a backend server that uses [Express](https://www.npmjs.com/package/express) and [data-store](https://www.npmjs.com/package/data-store) to act as a somewhat "restful" API. You should fork this into your own repository so you can a team can work together using Git. 
 
