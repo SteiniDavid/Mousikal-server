@@ -1,0 +1,25 @@
+{
+  "users": {
+    "steini": {
+      "passwordHash": "$2a$10$koUSLZ/AyrsJ/Pyz.MwEauU3hr3YHgwrdlbn9Ul430Io89bZ.bJz2"
+    },
+    "fasdf": {
+      "passwordHash": "$2a$10$apdaL.zCpopSZykWztp1OO4C75aXAY1hoBSj5H6GidHSIJGzV1DC2"
+    },
+    "will": {
+      "passwordHash": "$2a$10$3Wzwd66SIowB8ADYYdj7t.G.Yd3a2ccMwbETYi/M495gmBTGOYEHO"
+    },
+    "sjfaj": {
+      "passwordHash": "$2a$10$bMsPE/KCDPJ1JZvt3pz4MuL/.sNaIm64KBGN.umZRq9OxLvy6kCIS"
+    },
+    "sdfa": {
+      "passwordHash": "$2a$10$TkYgl6ZWiCkNnuewvjNDBuwfoEwCC4.8274wM8v2e25FFJn7DAA2S"
+    },
+    "shadfkj": {
+      "passwordHash": "$2a$10$cUcRquzc350rAg9YQRtWf.14judUyxsQ8x.LPV7WSd4hrDKEKuM0y"
+    },
+    "bob": {
+      "passwordHash": "$2a$10$udc1VqP.PlHa3.au7q1nye8qqdZLWSBeDg0ZUzMtLSJ08R2bXyxvK"
+    }
+  }
+}
