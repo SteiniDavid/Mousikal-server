@@ -4,7 +4,7 @@ import axios from "axios";
 export const router = express.Router();
 export const prefix = '/spotify';
 
-const OAuthToken = 'BQC6YlT67yMUltveofLVVzNkp5cKcOLgDL_zJEiqIJOhWAixDzxcLTzBvmGBY-_9cPdw5_R9VdOhDfheCINuh4VoVdAYdAZoac4g5dpbwCfkQ5CI4eQvWXvp-yxhpRQ4WkenSF5332qGGkaqth5AS14DbgTNGY0';
+const OAuthToken = 'BQDwDrPDVgexjk8skEwUeWE_asLWNY8i1XG70-GKWh-ou7FMcm3Dm6rZ9905Vr-tVL6jVLK2g6Ig-Vv1O8rLqC1jMPEddfP0qRwMQmnkkIShgkg7jOtvIx0A8fpVUCJZKrst2jNKxV9W4MWvU3ksYiyAEbSa0BY';
 
 router.get('/artist', function (req, res) {  
 
@@ -38,7 +38,7 @@ router.get('/artistAlbums', function (req, res) {
     var querySpotify = async () => {
         var result = await axios({
           method: 'get',
-          url: 'https://api.spotify.com/v1/artists/' + searchTerm + '/albums?limit=40',
+          url: 'https://api.spotify.com/v1/artists/' + searchTerm + '/albums?limit=50',
           headers: {
             'Authorization': 'Bearer ' + OAuthToken,
             'Content-Type': 'application/json',
@@ -57,7 +57,6 @@ router.get('/albumTracks', function (req, res) {
 
   //  Search term should be album's ID
   var searchTerm = req.query.searchTerm;
-  searchTerm = '4aawyAB9vmqN3uQ7FjRGTy';
 
   var querySpotify = async () => {
     var result = await axios({
