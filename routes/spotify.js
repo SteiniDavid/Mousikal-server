@@ -4,7 +4,7 @@ import axios from "axios";
 export const router = express.Router();
 export const prefix = '/spotify';
 
-const OAuthToken = 'BQBB0_9Uz168ipCkyPaYn3TFOpGuPMR8jzlt3ggOJNfXD3XdkK3GQ8z53Ax5WMRIXDnGr-Y5om7EOsOOUxUVAowXc4Rug9jA4BI5WajI9aVY6A8QogFv-zGzrbsSS1KH4hY-L3QcnzN-Y5DJe68J73BXzCzz7Yg';
+const OAuthToken = 'BQAkXYq7_TkZXVypd8oX_eqhfpcWHtm0zpzsPyuL3ypjEPVQ7BOYqjcl9hXvHKh_iN-7qjnLuPrmmDdJgULm3jJk-7B3cVkXh3rHtjUREFLfS5R3-S0dgd8GqC_ppjQgzKTRJ4fH-krv';
 
 router.get('/artist', function (req, res) {  
 

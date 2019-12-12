@@ -23,8 +23,10 @@ router.get('/*', parseGet, function (req, res) {
   }
 });
 
-router.post('/post', parsePost, function (req, res) {
+router.post('/*', parsePost, function (req, res) {
+  console.log("this gets here 1");
   const result = req.handlePost(userStore);
+  console.log("this gets here 2");
   console.log(result);
   if (typeof result !== 'undefined') {
     res.send({result})

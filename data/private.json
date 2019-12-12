@@ -11,14 +11,26 @@
     "74ASZWbe4lXaubB36ztrGX": [
       {
         "artistID": "74ASZWbe4lXaubB36ztrGX",
-        "albumID": "1euXUeJobzra05wyBIrdtH",
+        "albumID": "7I8ARvRuRzDghzsItBARZK",
         "user": "steini",
         "liked": "true"
       },
       {
         "artistID": "74ASZWbe4lXaubB36ztrGX",
-        "albumID": "7I8ARvRuRzDghzsItBARZK",
+        "albumID": "7udgQ8bay1Roa8bBsA6246",
         "user": "steini",
+        "liked": "true"
+      },
+      {
+        "artistID": "74ASZWbe4lXaubB36ztrGX",
+        "albumID": "1euXUeJobzra05wyBIrdtH",
+        "user": "tests123",
+        "liked": "true"
+      },
+      {
+        "artistID": "74ASZWbe4lXaubB36ztrGX",
+        "albumID": "1euXUeJobzra05wyBIrdtH",
+        "user": "w123",
         "liked": "true"
       }
     ],
@@ -89,6 +101,56 @@
         "albumID": "5fWGZ7dAPYdMslAjrPqfeQ",
         "user": "steini",
         "liked": "true"
+      }
+    ],
+    "4xRYI6VqpkE3UwrDrAZL8L": [
+      {
+        "albumID": 0,
+        "artistID": "this.artistID",
+        "liked": "true",
+        "user": "this.loggedInUserName"
+      },
+      {
+        "artistID": "4xRYI6VqpkE3UwrDrAZL8L",
+        "albumID": "0XLwImzaZEtqHE4NHAepDz",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "12Chz98pHFMPJEknJQMWvI": [
+      {
+        "albumID": 0,
+        "artistID": "this.artistID",
+        "liked": "true",
+        "user": "this.loggedInUserName"
+      },
+      {
+        "albumID": "7iXImlGs9MxR7VTSNkO2Go",
+        "artistID": "12Chz98pHFMPJEknJQMWvI",
+        "liked": "true",
+        "user": "steini"
+      },
+      {
+        "albumID": "2m7L60M210ABzrY9GLyBPZ",
+        "artistID": "12Chz98pHFMPJEknJQMWvI",
+        "liked": "true",
+        "user": "steini"
+      }
+    ],
+    "6sFIWsNpZYqfjUpaCgueju": [
+      {
+        "albumID": 0,
+        "artistID": "this.artistID",
+        "liked": "true",
+        "user": "this.loggedInUserName"
+      }
+    ],
+    "1actujQ9rINTsYbeqzBk7J": [
+      {
+        "albumID": 0,
+        "artistID": "this.artistID",
+        "liked": "true",
+        "user": "this.loggedInUserName"
       }
     ]
   }

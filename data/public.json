@@ -1,28 +1,16 @@
 {
   "comments": [
     {
-      "albumID": "2iA7rzpQsOfAPkfH4Ekp7f",
+      "albumID": "1euXUeJobzra05wyBIrdtH",
       "user": "steini",
-      "commentBody": "comment",
-      "date": 1576106590040
+      "commentBody": "new comment",
+      "date": 1576125462292
     },
     {
-      "albumID": "2e4xOasRFhJn4x2MBM5pdu",
+      "albumID": "1euXUeJobzra05wyBIrdtH",
       "user": "steini",
-      "commentBody": "comments for this one",
-      "date": 1576107193250
-    },
-    {
-      "albumID": "2e4xOasRFhJn4x2MBM5pdu",
-      "user": "steini",
-      "commentBody": "dfasda",
-      "date": 1576107195645
-    },
-    {
-      "albumID": "7I8ARvRuRzDghzsItBARZK",
-      "user": "steini",
-      "commentBody": "comment",
-      "date": 1576108816333
+      "commentBody": "cm\n",
+      "date": 1576124433308
     }
   ]
 }
