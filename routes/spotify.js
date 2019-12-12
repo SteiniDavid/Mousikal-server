@@ -4,7 +4,7 @@ import axios from "axios";
 export const router = express.Router();
 export const prefix = '/spotify';
 
-const OAuthToken = 'BQCAwS_-_qLFpY2e-wluq7zhMnQhMsmND0LUQi4mvRquUJmIGdMLZnCxV35Xo5dpgUU32vWWKd-0dxlXbOwOcpeAEz8JFZ9JTcBvoe6Y-Nx1HnHOAyZPBmMQTP03_Nm5Tq6Yfpq2-oPK';
+const OAuthToken = 'BQBB0_9Uz168ipCkyPaYn3TFOpGuPMR8jzlt3ggOJNfXD3XdkK3GQ8z53Ax5WMRIXDnGr-Y5om7EOsOOUxUVAowXc4Rug9jA4BI5WajI9aVY6A8QogFv-zGzrbsSS1KH4hY-L3QcnzN-Y5DJe68J73BXzCzz7Yg';
 
 router.get('/artist', function (req, res) {  
 
@@ -71,7 +71,7 @@ router.get('/albumTracks', function (req, res) {
   }
 
   querySpotify().then(function(result) {
-    res.send(result.data.items);
+    res.send(tracksToJSON(result));
   })
 
 
@@ -117,4 +117,23 @@ export function albumsToJSON(searchResult) {
   }
   
   return albums;
+}
+
+export function tracksToJSON(searchResult) {
+  var tracks = new Array();
+  var data = searchResult.data.items;
+  console.log(data);
+
+  for (var i = 0; i < data.length; i++) {
+    var track = data[i];
+    tracks.push({
+      name: track.name,
+      duration: track.duration_ms,
+      number: track.track_number,
+      sampleURL: track.preview_url,
+    })
+  }
+
+  return tracks;
+
 }
