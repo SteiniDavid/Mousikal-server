@@ -1,2 +1,95 @@
 {
+  "likes": {
+    "4XpPveeg7RuYS3CgLo75t9": [
+      {
+        "artistID": "4XpPveeg7RuYS3CgLo75t9",
+        "albumID": "2iA7rzpQsOfAPkfH4Ekp7f",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "74ASZWbe4lXaubB36ztrGX": [
+      {
+        "artistID": "74ASZWbe4lXaubB36ztrGX",
+        "albumID": "1euXUeJobzra05wyBIrdtH",
+        "user": "steini",
+        "liked": "true"
+      },
+      {
+        "artistID": "74ASZWbe4lXaubB36ztrGX",
+        "albumID": "7I8ARvRuRzDghzsItBARZK",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "7LvoDJUNGnOrPdGRzVtOJ9": [],
+    "2zQAPo0gPmt7OwfKGQGsfW": [
+      {
+        "artistID": "2zQAPo0gPmt7OwfKGQGsfW",
+        "albumID": "1Shd8GuH91U33LXYNsS9cr",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "4LLpKhyESsyAXpc4laK94U": [
+      {
+        "artistID": "4LLpKhyESsyAXpc4laK94U",
+        "albumID": "5wtE5aLX5r7jOosmPhJhhk",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "4KtyUYo9zaM9YggIVc7uxx": [
+      {
+        "artistID": "4KtyUYo9zaM9YggIVc7uxx",
+        "albumID": "1uNKgyiAAKMX4kX79eI9hJ",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "2C6i0I5RiGzDKN9IAF8reh": [
+      {
+        "artistID": "2C6i0I5RiGzDKN9IAF8reh",
+        "albumID": "6ugTzBm3I3Ih5Jqdn0qZ1w",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "5Dl3HXZjG6ZOWT5cV375lk": [
+      {
+        "artistID": "5Dl3HXZjG6ZOWT5cV375lk",
+        "albumID": "377K8eu67eYE1w63TPlz3a",
+        "user": "steini",
+        "liked": "true"
+      },
+      {
+        "artistID": "5Dl3HXZjG6ZOWT5cV375lk",
+        "albumID": "6XaCGjrIRFiS5D5IVg66vb",
+        "user": "steini",
+        "liked": "true"
+      }
+    ],
+    "39mHYiNmLR7p8PXNG8Wll6": [
+      {
+        "albumID": 0,
+        "artistID": "this.artistID",
+        "liked": "true",
+        "user": "this.loggedInUserName"
+      }
+    ],
+    "2NjfBq1NflQcKSeiDooVjY": [
+      {
+        "albumID": 0,
+        "artistID": "this.artistID",
+        "liked": "true",
+        "user": "this.loggedInUserName"
+      },
+      {
+        "artistID": "2NjfBq1NflQcKSeiDooVjY",
+        "albumID": "5fWGZ7dAPYdMslAjrPqfeQ",
+        "user": "steini",
+        "liked": "true"
+      }
+    ]
+  }
 }

@@ -1,5 +1,8 @@
 {
   "users": {
+    "123": {
+      "passwordHash": "$2a$10$ZUHdhZl1zKDpgrDSMI3x.emq/mzcE/WB4ogOq8xgDxc2Yx83Rjs0K"
+    },
     "steini": {
       "passwordHash": "$2a$10$koUSLZ/AyrsJ/Pyz.MwEauU3hr3YHgwrdlbn9Ul430Io89bZ.bJz2"
     },
@@ -20,6 +23,24 @@
     },
     "bob": {
       "passwordHash": "$2a$10$udc1VqP.PlHa3.au7q1nye8qqdZLWSBeDg0ZUzMtLSJ08R2bXyxvK"
+    },
+    "test1234": {
+      "passwordHash": "$2a$10$sKnEEfy9wxRrs11KK4sc8.hJ9yV/fBpUWIfc/mVQKqOU45kM1AqSm"
+    },
+    "dfs": {
+      "passwordHash": "$2a$10$6ptfgK6dD6.qEu7w.B6TUOhR/qdM4028SaufBmGeK826mrC.FMc26"
+    },
+    "fsda": {
+      "passwordHash": "$2a$10$OX0.yMT0toITtjvUwfJJD.Jvn8.5kLqFvvkw3ga/cbriquSdFXRtu"
+    },
+    "fasdj": {
+      "passwordHash": "$2a$10$WNL6cWFCwbPlO7XrSE8y5Oak0U33vRCi1LfBD3jsc4x3n8E50L7Rm"
+    },
+    "afds": {
+      "passwordHash": "$2a$10$1aawE2HJxemrL/3qKWlNxOcJB5HMEt2gxr5Rs2C1a3xWc4Qb.GcPa"
+    },
+    "asdf": {
+      "passwordHash": "$2a$10$ZnpiBzY0J78RVXn0L6GT0uud.kQelZQJPjsgRb2PBvnwWc.oOI5Ny"
     }
   }
 }
